@@ -6,11 +6,11 @@ public class PrimZahlenSpucker {
 
 	public static void main(String[] args) {
 		System.out.println("Geben sie eine Zahl ein und ich gebe dir alle Prim Zahlen bis zu der Zahl aus");
-		int eingabe = einlesen();
+		int input = einlesen();
 		
-		for (int allesbisEingabe = 2; allesbisEingabe <= eingabe; allesbisEingabe ++ ){
+		for (int allesbisEingabe = 2; allesbisEingabe <= input; allesbisEingabe ++ ){
 			
-			//hier erstelle ich alle Zahlen bis zu der Eingelesener
+		//hier erstelle ich alle Zahlen bis zu der Eingelesener
 		boolean isPrime = true; 
 			for (int teiler = 2; teiler < allesbisEingabe && isPrime == true; teiler++){
 				if ((allesbisEingabe % teiler) == 0){
